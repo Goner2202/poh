@@ -1,0 +1,53 @@
+body {
+    background-color: black;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    height: 1050px;
+}
+
+img {
+    width: 210px;
+    height: 210px;
+}
+
+p.text-center {
+    /* font-size: calc(20px + 80 * (100vw / 1500)); */
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    height: 80px;
+    padding-top: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(49, 2, 28);
+}
+
+p.text-start {
+    font-size: 17px;
+}
+
+label,
+#emailHelp,
+p#sex {
+    color: rgb(255, 255, 255);
+}
+
+.d-flex {
+    margin-top: 15px;
+}
+
+
+
+/* ////////////////////////////////////////////////////////////////////////////////////// */
+.inputs-error{
+    outline: none;
+    border-color:#e01d1d;
+    box-shadow: 0px 0px 15px #e01d1d;
+}
+
+#text-error{
+    color: red;
+    font-size: 19px;
+    font-weight: 450;
+}
